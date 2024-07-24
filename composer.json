@@ -28,12 +28,18 @@
     "phpdocumentor/reflection-docblock": "^5.2",
     "phpdocumentor/type-resolver": "^1.6",
     "roave/better-reflection": "^5.0 || ^6.0",
-    "tightenco/collect": "^8.0 || ^9.0"
+    "tightenco/collect": "dev-laravel-9-ongoing"
   },
   "require-dev": {
     "mockery/mockery": "^1.3",
     "phpunit/phpunit": "^10.0"
   },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/relaypilot/collect"
+        }
+    ],
   "autoload": {
     "psr-4": {
       "PhpUnitGen\\Core\\": "src/"
